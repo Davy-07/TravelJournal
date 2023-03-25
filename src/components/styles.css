@@ -1,0 +1,59 @@
+.navbar{
+    display: flex;
+    background-color: #F55A5A;
+    align-items: center;
+    padding-left: 45%;
+   
+}
+
+.navbar> p {
+    color: white;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 14.4608px;
+
+}
+
+.card{
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.card--Img{
+    height: 185px;
+    width: 215px;
+    border-radius: 5px;
+}
+
+.card--location {
+    height: 12.55px;
+}
+
+.card--date{
+    font-weight: 700;
+}
+
+.card--dest{
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.17em;
+    font-size: 15.24px;
+    line-height: 12px;
+}
+
+.card--desc{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.24px;
+    line-height: 150%;
+}
+
+.cardContent{
+    padding-top: 20px;
+}
